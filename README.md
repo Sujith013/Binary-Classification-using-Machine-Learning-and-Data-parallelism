@@ -6,7 +6,7 @@ Binary data classification using TensorFlow and Keras in python. Data parallelis
 1. Download/ clone the repository.
 2. Navigate to the respective folder in PC and create 4 seperate folders named "logs", "models", "dog_cat", "data" and "augmented". The model will be saved in the "models" folder and logs in the "logs" folder.
 
-3. Download the data from the dataset and put them in the "dog_cat" folder by creating subfolders with their label name. For eg: in the data folder create a folder called "dog" and inside the crab folder create another folder by the same name "dog" and put all the downloaded images of dog in here. **NOTE: The data augmentation program would work properly only if this is done properly**.
+3. Download the data from the dataset and put them in the "dog_cat" folder by creating subfolders with their label name. For eg: in the data folder create a folder called "dog" and inside the dog folder create another folder by the same name "dog" and put all the downloaded images of dog in here. **NOTE: The data augmentation program would work properly only if this is done properly**.
 
 4. Once after the data folder is ready with all the data files go to the augmented folder and create separate folders for separate labels, for eg: one folder named "dog", one named "cat". These label names should be same as the name in the "dog_cat" folder. **NOTE: It is the data in the augmented folder that is used as the main data for training and testing the model**.
 
